@@ -1,0 +1,133 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+#weather2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1.5em;
+    background-color: black;
+    margin-top: -1em;
+    margin-left: -3em;
+    margin-right: -2em;
+    
+}
+#weatherInfo{
+    background: white;
+    color: black;
+    box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-right: 2em;
+}
+
+#earth{ 
+    color: white;
+    margin-left: 0px;
+
+}
+
+#weatherForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    font-size: 14px;
+    margin-right: 4em;
+    margin-left: -17em;
+    
+}
+
+#cityState{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: 600;
+}
+
+#city{
+    margin-left: -10em;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    margin-right: 1em;
+    border: 0px;
+}
+
+#state{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border: 0px;
+}
+
+#temp{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -2em;
+    margin-top: -2em;
+}
+
+#description{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#img{
+    margin-top: -2em;
+}
+#submit{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0.5em;
+    box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    margin-left: 2em;
+}
+
+#submit:hover{
+background-color: #00057E;
+color: white;
+}
+
+#clabel{
+    color: white;
+    
+}
+
+#slabel{
+    color: white;
+    margin-right: 0.4em; 
+}
+::placeholder {
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#weather{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
